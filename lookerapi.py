@@ -7,7 +7,6 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 host = 'localhost'
 
-
 class LookerApi(object):
 
     def __init__(self, token, secret, host):

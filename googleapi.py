@@ -21,8 +21,6 @@ class GoogleApi(object):
     self.spreadsheetData = self.service.spreadsheets().get(
     spreadsheetId = spreadsheetId).execute()
 
-
-
     def auth(self):
 
     creds = None

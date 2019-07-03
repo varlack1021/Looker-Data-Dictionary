@@ -3,19 +3,17 @@ from googleapi import GoogleApi
 import time
 start = time.time()
 
-##-- If using different spread sheets modify this file and 
-##-- and googleapi file
+##-- If using different spread sheets modify this file
 ##-- To overcome too many api requests the program waits about 2 seconds after each call
 ##-- Results in slow performance of about 15 minutes
 ##-- Possible optimization to only write to sheets that have new info to be added
 ##-- Currently re writes to all sheets and re sizes all sheets regardless if new info 
 ##-- was added or not
-##-- Whenmaking api calls, receive an error from google saying google did not verify appp
+##-- When making api calls, receive an error from google saying google did not verify appp
 ##-- Is currrently running on something called quickstart or safemode from google to make their api calls
 
 
 ## -- Dictionary for all models and explores
-
 model_list = ["apps","data_science", "dfp", "e_editions", "dfp", 
 "gigya", "newspapers", "omniture", "web_analytics_dashboards"]
 

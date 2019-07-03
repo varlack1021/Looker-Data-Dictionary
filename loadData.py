@@ -73,7 +73,6 @@ class LoadData(object):
         self.explore_label = data["label"]
         return data["label"]
 
-
 #Loads data into body to be sent to googleSheets
 
     def load_data(self):
